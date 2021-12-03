@@ -1,0 +1,21 @@
+.rowC{
+    display:flex; 
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.mode{
+    display:flex; 
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.centered{display:block; margin:auto;}
+
+.test {
+    text-align: center;
+}
