@@ -74,7 +74,7 @@ const Logged = () => {
         let team_name = "";
         for (let n = 0; n < teams.length; n++){
             let team1_rat = ratings[n];
-            team2_rat = normalize(team1_rat);
+            let team2_rat = normalize(team1_rat);
             let dist = euclidDist(new_array, team2_rat);
             if (dist < min_dist){
                 min_dist = dist;
@@ -111,7 +111,7 @@ const Logged = () => {
         let team_name = "";
         for (let n = 0; n < teams.length; n++){
             let team1_rat = ratings[n];
-            team2_rat = normalize(team1_rat);
+            let team2_rat = normalize(team1_rat);
             let dist = euclidDist(new_array, team2_rat);
             if (dist < min_dist){
                 min_dist = dist;
@@ -149,7 +149,7 @@ const Logged = () => {
         let team_name = "";
         for (let n = 0; n < teams.length; n++){
             let team1_rat = ratings[n];
-            team2_rat = normalize(team1_rat);
+            let team2_rat = normalize(team1_rat);
             let dist = euclidDist(new_array, team2_rat);
             console.log(dist);
             if (dist < min_dist){
